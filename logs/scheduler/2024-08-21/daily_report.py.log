@@ -124,3 +124,52 @@ ValueError: month must be in 1..12
 [2024-08-21T07:32:27.840+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:32:27.840+0700] {dag.py:3211} INFO - Sync 1 DAGs
 [2024-08-21T07:32:27.853+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:32:27.853+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
 [2024-08-21T07:32:27.869+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.057 seconds
+[2024-08-21T07:33:19.297+0700] {processor.py:186} INFO - Started process (PID=8323) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:33:19.299+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-21T07:33:19.301+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:33:19.301+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:33:19.309+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:33:19.324+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:33:19.324+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-21T07:33:19.338+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:33:19.338+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-21T07:33:19.353+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.062 seconds
+[2024-08-21T07:34:12.694+0700] {processor.py:186} INFO - Started process (PID=8794) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:34:12.700+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-21T07:34:12.703+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:34:12.702+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:34:12.713+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:34:12.730+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:34:12.730+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-21T07:34:12.746+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:34:12.746+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-21T07:34:12.768+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.081 seconds
+[2024-08-21T07:35:07.264+0700] {processor.py:186} INFO - Started process (PID=9921) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:35:07.271+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-21T07:35:07.273+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:35:07.273+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:35:07.281+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:35:07.296+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:35:07.296+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-21T07:35:07.315+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:35:07.315+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-21T07:35:07.334+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.075 seconds
+[2024-08-21T07:35:58.280+0700] {processor.py:186} INFO - Started process (PID=10455) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:35:58.282+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-21T07:35:58.283+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:35:58.283+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:35:58.289+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:35:58.306+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:35:58.305+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-21T07:35:58.320+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:35:58.320+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-21T07:35:58.338+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.064 seconds
+[2024-08-21T07:36:51.389+0700] {processor.py:186} INFO - Started process (PID=10873) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:36:51.396+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-21T07:36:51.398+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:36:51.398+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:36:51.405+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:36:51.418+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:36:51.418+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-21T07:36:51.431+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:36:51.431+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-21T07:36:51.449+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.064 seconds
+[2024-08-21T07:37:44.461+0700] {processor.py:186} INFO - Started process (PID=11406) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:37:44.463+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-21T07:37:44.465+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:37:44.465+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:37:44.471+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:37:44.484+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:37:44.483+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-21T07:37:44.499+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:37:44.499+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-21T07:37:44.518+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.061 seconds
+[2024-08-21T07:38:37.422+0700] {processor.py:186} INFO - Started process (PID=12067) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:38:37.424+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-21T07:38:37.425+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:38:37.425+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:38:37.433+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-21T07:38:37.447+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:38:37.446+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-21T07:38:37.470+0700] {logging_mixin.py:190} INFO - [2024-08-21T07:38:37.469+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-21T07:38:37.489+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.072 seconds
