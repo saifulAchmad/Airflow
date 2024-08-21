@@ -1,0 +1,274 @@
+[2024-08-20T11:27:09.116+0700] {processor.py:186} INFO - Started process (PID=35277) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:27:09.116+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:27:09.119+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.118+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:27:09.138+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.136+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh script_A.sh
+[2024-08-20T11:27:09.138+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.138+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh script_B.sh
+[2024-08-20T11:27:09.139+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.139+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh script_C.sh
+[2024-08-20T11:27:09.139+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.139+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh join_data.sh
+[2024-08-20T11:27:09.139+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.139+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh analyze.sh
+[2024-08-20T11:27:09.151+0700] {processor.py:925} INFO - DAG(s) 'daily_report' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:27:09.314+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.313+0700] {override.py:1858} INFO - Created Permission View: can read on DAG:daily_report
+[2024-08-20T11:27:09.333+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.332+0700] {override.py:1858} INFO - Created Permission View: can delete on DAG:daily_report
+[2024-08-20T11:27:09.343+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.342+0700] {override.py:1858} INFO - Created Permission View: can edit on DAG:daily_report
+[2024-08-20T11:27:09.343+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.343+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:27:09.352+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.352+0700] {dag.py:3234} INFO - Creating ORM DAG for daily_report
+[2024-08-20T11:27:09.372+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:27:09.372+0700] {dag.py:4138} INFO - Setting next_dagrun for daily_report to 2019-08-01 00:00:00+00:00, run_after=2019-08-02 00:00:00+00:00
+[2024-08-20T11:27:09.391+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.281 seconds
+[2024-08-20T11:28:11.524+0700] {processor.py:186} INFO - Started process (PID=35742) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:28:11.525+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:28:11.528+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:11.527+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:28:11.538+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:11.537+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh script_A.sh
+[2024-08-20T11:28:11.539+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:11.538+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh script_B.sh
+[2024-08-20T11:28:11.539+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:11.539+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh script_C.sh
+[2024-08-20T11:28:11.539+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:11.539+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh join_data.sh
+[2024-08-20T11:28:11.540+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:11.539+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh analyze.sh
+[2024-08-20T11:28:11.541+0700] {processor.py:925} INFO - DAG(s) 'daily_report' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:28:11.553+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:11.553+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:28:11.566+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:11.565+0700] {dag.py:4138} INFO - Setting next_dagrun for daily_report to 2019-08-01 00:00:00+00:00, run_after=2019-08-02 00:00:00+00:00
+[2024-08-20T11:28:11.583+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.070 seconds
+[2024-08-20T11:28:42.262+0700] {processor.py:186} INFO - Started process (PID=35983) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:28:42.264+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:28:42.266+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:42.266+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:28:42.275+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:42.274+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh script_A.sh
+[2024-08-20T11:28:42.276+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:42.275+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh script_B.sh
+[2024-08-20T11:28:42.276+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:42.276+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh script_C.sh
+[2024-08-20T11:28:42.276+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:42.276+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh join_data.sh
+[2024-08-20T11:28:42.276+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:42.276+0700] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/user/.local/lib/python3.10/site-packages/jinja2/loaders.py", line 207, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sh analyze.sh
+[2024-08-20T11:28:42.278+0700] {processor.py:925} INFO - DAG(s) 'daily_report' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:28:42.291+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:42.291+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:28:42.306+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:28:42.306+0700] {dag.py:4138} INFO - Setting next_dagrun for daily_report to 2019-08-01 00:00:00+00:00, run_after=2019-08-02 00:00:00+00:00
+[2024-08-20T11:28:42.324+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.067 seconds
+[2024-08-20T11:29:34.949+0700] {processor.py:186} INFO - Started process (PID=36401) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:29:34.955+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:29:34.957+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:29:34.957+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:29:34.966+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:29:35.040+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:29:35.040+0700] {override.py:1858} INFO - Created Permission View: can read on DAG:simple_dag
+[2024-08-20T11:29:35.051+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:29:35.050+0700] {override.py:1858} INFO - Created Permission View: can delete on DAG:simple_dag
+[2024-08-20T11:29:35.057+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:29:35.057+0700] {override.py:1858} INFO - Created Permission View: can edit on DAG:simple_dag
+[2024-08-20T11:29:35.057+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:29:35.057+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:29:35.069+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:29:35.069+0700] {dag.py:3234} INFO - Creating ORM DAG for simple_dag
+[2024-08-20T11:29:35.078+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:29:35.077+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:29:35.094+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.151 seconds
+[2024-08-20T11:30:23.664+0700] {processor.py:186} INFO - Started process (PID=36788) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:30:23.665+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:30:23.667+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:30:23.666+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:30:23.677+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:30:23.694+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:30:23.693+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:30:23.709+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:30:23.708+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:30:23.727+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.070 seconds
+[2024-08-20T11:30:39.945+0700] {processor.py:186} INFO - Started process (PID=36913) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:30:39.947+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:30:39.948+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:30:39.948+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:30:39.965+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:30:39.996+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:30:39.996+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:30:40.017+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:30:40.017+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:30:40.034+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.098 seconds
+[2024-08-20T11:31:36.175+0700] {processor.py:186} INFO - Started process (PID=37691) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:31:36.176+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:31:36.178+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:31:36.178+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:31:36.193+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:31:36.209+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:31:36.209+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:31:36.225+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:31:36.224+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:31:36.270+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.116 seconds
+[2024-08-20T11:32:30.806+0700] {processor.py:186} INFO - Started process (PID=38136) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:32:30.812+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:32:30.814+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:32:30.814+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:32:30.823+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:32:30.834+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:32:30.834+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:32:30.847+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:32:30.847+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:32:30.864+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.063 seconds
+[2024-08-20T11:33:21.144+0700] {processor.py:186} INFO - Started process (PID=38530) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:33:21.151+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:33:21.153+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:33:21.153+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:33:21.159+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:33:21.170+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:33:21.170+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:33:21.184+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:33:21.184+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:33:21.204+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.064 seconds
+[2024-08-20T11:34:13.683+0700] {processor.py:186} INFO - Started process (PID=38946) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:34:13.685+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:34:13.689+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:34:13.688+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:34:13.713+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:34:13.758+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:34:13.758+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:34:13.785+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:34:13.785+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:34:13.804+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.130 seconds
+[2024-08-20T11:35:09.837+0700] {processor.py:186} INFO - Started process (PID=39389) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:35:09.838+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:35:09.840+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:35:09.840+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:35:09.847+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:35:09.858+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:35:09.858+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:35:09.877+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:35:09.877+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:35:09.894+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.062 seconds
+[2024-08-20T11:36:01.224+0700] {processor.py:186} INFO - Started process (PID=39792) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:36:01.227+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:36:01.229+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:36:01.229+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:36:01.238+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:36:01.250+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:36:01.250+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:36:01.263+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:36:01.263+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:36:01.280+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.060 seconds
+[2024-08-20T11:36:49.961+0700] {processor.py:186} INFO - Started process (PID=40179) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:36:49.962+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:36:49.964+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:36:49.964+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:36:49.971+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:36:49.982+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:36:49.982+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:36:49.995+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:36:49.995+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:36:50.011+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.055 seconds
+[2024-08-20T11:37:40.393+0700] {processor.py:186} INFO - Started process (PID=40573) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:37:40.395+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:37:40.397+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:37:40.396+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:37:40.403+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:37:40.417+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:37:40.417+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:37:40.434+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:37:40.434+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:37:40.453+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.065 seconds
+[2024-08-20T11:38:31.179+0700] {processor.py:186} INFO - Started process (PID=41000) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:38:31.185+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:38:31.187+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:38:31.187+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:38:31.193+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:38:31.205+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:38:31.205+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:38:31.220+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:38:31.219+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:38:31.237+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.063 seconds
+[2024-08-20T11:39:27.252+0700] {processor.py:186} INFO - Started process (PID=41450) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:39:27.254+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:39:27.256+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:39:27.256+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:39:27.263+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:39:27.278+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:39:27.278+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:39:27.297+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:39:27.297+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:39:27.319+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.072 seconds
+[2024-08-20T11:40:16.530+0700] {processor.py:186} INFO - Started process (PID=41849) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:40:16.533+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:40:16.535+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:40:16.534+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:40:16.542+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:40:16.555+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:40:16.554+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:40:16.568+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:40:16.568+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:40:16.591+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.067 seconds
+[2024-08-20T11:41:03.537+0700] {processor.py:186} INFO - Started process (PID=42227) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:41:03.539+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:41:03.541+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:41:03.541+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:41:03.547+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:41:03.560+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:41:03.559+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:41:03.577+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:41:03.577+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:41:03.597+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.065 seconds
+[2024-08-20T11:41:57.966+0700] {processor.py:186} INFO - Started process (PID=42667) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:41:57.967+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:41:57.969+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:41:57.969+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:41:57.975+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:41:57.986+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:41:57.986+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:41:57.999+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:41:57.999+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:41:58.015+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.053 seconds
+[2024-08-20T11:42:48.556+0700] {processor.py:186} INFO - Started process (PID=43068) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:42:48.557+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:42:48.559+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:42:48.558+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:42:48.565+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:42:48.578+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:42:48.578+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:42:48.594+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:42:48.594+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:42:48.613+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.062 seconds
+[2024-08-20T11:43:40.119+0700] {processor.py:186} INFO - Started process (PID=43480) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:43:40.120+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:43:40.122+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:43:40.122+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:43:40.130+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:43:40.147+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:43:40.147+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:43:40.166+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:43:40.165+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:43:40.190+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.078 seconds
+[2024-08-20T11:44:28.691+0700] {processor.py:186} INFO - Started process (PID=43862) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:44:28.693+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:44:28.694+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:44:28.694+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:44:28.700+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:44:28.712+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:44:28.712+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:44:28.728+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:44:28.727+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:44:28.745+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.058 seconds
+[2024-08-20T11:45:19.055+0700] {processor.py:186} INFO - Started process (PID=44262) to work on /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:45:19.057+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/daily_report.py for tasks to queue
+[2024-08-20T11:45:19.059+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:45:19.058+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:45:19.065+0700] {processor.py:925} INFO - DAG(s) 'simple_dag' retrieved from /home/user/airflow/dags/daily_report.py
+[2024-08-20T11:45:19.078+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:45:19.078+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-20T11:45:19.093+0700] {logging_mixin.py:190} INFO - [2024-08-20T11:45:19.093+0700] {dag.py:4138} INFO - Setting next_dagrun for simple_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-20T11:45:19.113+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/daily_report.py took 0.063 seconds
