@@ -1,0 +1,29 @@
+[2024-08-22T10:47:46.824+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-08-22T10:47:46.832+0700] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: simple_dag.print_hello scheduled__2024-08-21T02:50:00+00:00 [queued]>
+[2024-08-22T10:47:46.837+0700] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: simple_dag.print_hello scheduled__2024-08-21T02:50:00+00:00 [queued]>
+[2024-08-22T10:47:46.837+0700] {taskinstance.py:2856} INFO - Starting attempt 1 of 1
+[2024-08-22T10:47:46.850+0700] {taskinstance.py:2879} INFO - Executing <Task(BashOperator): print_hello> on 2024-08-21 02:50:00+00:00
+[2024-08-22T10:47:46.852+0700] {standard_task_runner.py:72} INFO - Started process 16758 to run task
+[2024-08-22T10:47:46.855+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'simple_dag', 'print_hello', 'scheduled__2024-08-21T02:50:00+00:00', '--job-id', '166', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmpqgf4lbbw']
+[2024-08-22T10:47:46.855+0700] {standard_task_runner.py:105} INFO - Job 166: Subtask print_hello
+[2024-08-22T10:47:46.886+0700] {task_command.py:467} INFO - Running <TaskInstance: simple_dag.print_hello scheduled__2024-08-21T02:50:00+00:00 [running]> on host LAPTOP-G8FSBU09.
+[2024-08-22T10:47:46.941+0700] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='simple_dag' AIRFLOW_CTX_TASK_ID='print_hello' AIRFLOW_CTX_EXECUTION_DATE='2024-08-21T02:50:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-21T02:50:00+00:00'
+[2024-08-22T10:47:46.942+0700] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-08-22T10:47:46.942+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-08-22T10:47:46.942+0700] {logging_mixin.py:190} INFO - Current task name:print_hello state:running start_date:2024-08-22 03:47:46.832660+00:00
+[2024-08-22T10:47:46.942+0700] {logging_mixin.py:190} INFO - Dag name:simple_dag and current dag run status:running
+[2024-08-22T10:47:46.942+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2024-08-22T10:47:46.943+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-08-22T10:47:46.944+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Hello World"']
+[2024-08-22T10:47:46.949+0700] {subprocess.py:86} INFO - Output:
+[2024-08-22T10:47:46.950+0700] {subprocess.py:93} INFO - Hello World
+[2024-08-22T10:47:46.950+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-08-22T10:47:46.965+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-08-22T10:47:46.965+0700] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=simple_dag, task_id=print_hello, run_id=scheduled__2024-08-21T02:50:00+00:00, execution_date=20240821T025000, start_date=20240822T034746, end_date=20240822T034746
+[2024-08-22T10:47:46.979+0700] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-08-22T10:47:46.980+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-08-22T10:47:46.980+0700] {logging_mixin.py:190} INFO - Dag name:simple_dag queued_at:2024-08-22 03:47:24.519502+00:00
+[2024-08-22T10:47:46.980+0700] {logging_mixin.py:190} INFO - Task hostname:LAPTOP-G8FSBU09. operator:BashOperator
+[2024-08-22T10:47:46.988+0700] {local_task_job_runner.py:261} INFO - Task exited with return code 0
+[2024-08-22T10:47:46.999+0700] {taskinstance.py:3891} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-22T10:47:47.000+0700] {local_task_job_runner.py:240} INFO - ::endgroup::

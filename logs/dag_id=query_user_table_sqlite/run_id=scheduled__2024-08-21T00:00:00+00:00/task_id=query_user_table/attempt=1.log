@@ -1,0 +1,177 @@
+[2024-08-22T10:56:40.619+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-08-22T10:56:40.625+0700] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: query_user_table_sqlite.query_user_table scheduled__2024-08-21T00:00:00+00:00 [queued]>
+[2024-08-22T10:56:40.628+0700] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: query_user_table_sqlite.query_user_table scheduled__2024-08-21T00:00:00+00:00 [queued]>
+[2024-08-22T10:56:40.629+0700] {taskinstance.py:2856} INFO - Starting attempt 1 of 2
+[2024-08-22T10:56:40.640+0700] {taskinstance.py:2879} INFO - Executing <Task(SqliteOperator): query_user_table> on 2024-08-21 00:00:00+00:00
+[2024-08-22T10:56:40.642+0700] {standard_task_runner.py:72} INFO - Started process 21933 to run task
+[2024-08-22T10:56:40.657+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'query_user_table_sqlite', 'query_user_table', 'scheduled__2024-08-21T00:00:00+00:00', '--job-id', '279', '--raw', '--subdir', 'DAGS_FOLDER/test_slqite.py', '--cfg-path', '/tmp/tmp2el8vu2h']
+[2024-08-22T10:56:40.658+0700] {standard_task_runner.py:105} INFO - Job 279: Subtask query_user_table
+[2024-08-22T10:56:40.780+0700] {task_command.py:467} INFO - Running <TaskInstance: query_user_table_sqlite.query_user_table scheduled__2024-08-21T00:00:00+00:00 [running]> on host LAPTOP-G8FSBU09.
+[2024-08-22T10:56:40.872+0700] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='query_user_table_sqlite' AIRFLOW_CTX_TASK_ID='query_user_table' AIRFLOW_CTX_EXECUTION_DATE='2024-08-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-21T00:00:00+00:00'
+[2024-08-22T10:56:40.874+0700] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-08-22T10:56:40.874+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-08-22T10:56:40.874+0700] {logging_mixin.py:190} INFO - Current task name:query_user_table state:running start_date:2024-08-22 03:56:40.625945+00:00
+[2024-08-22T10:56:40.874+0700] {logging_mixin.py:190} INFO - Dag name:query_user_table_sqlite and current dag run status:running
+[2024-08-22T10:56:40.874+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2024-08-22T10:56:40.875+0700] {sql.py:282} INFO - Executing: SELECT * FROM user;
+[2024-08-22T10:56:40.882+0700] {base.py:84} INFO - Retrieving connection 'test_sqlite'
+[2024-08-22T10:56:40.891+0700] {base.py:84} INFO - Retrieving connection 'test_sqlite'
+[2024-08-22T10:56:40.891+0700] {sql.py:509} INFO - Running statement: SELECT * FROM user;, parameters: None
+[2024-08-22T10:56:40.892+0700] {taskinstance.py:3301} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 288, in execute
+    output = hook.run(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 456, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 514, in _run_command
+    cur.execute(sql_statement)
+sqlite3.OperationalError: no such table: user
+[2024-08-22T10:56:40.913+0700] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-08-22T10:56:40.913+0700] {logging_mixin.py:190} INFO - Task start:2024-08-22 03:56:40.625945+00:00 end:2024-08-22 03:56:40.912140+00:00 duration:0.286195
+[2024-08-22T10:56:40.914+0700] {logging_mixin.py:190} INFO - Task:<Task(SqliteOperator): query_user_table> dag:<DAG: query_user_table_sqlite> dagrun:<DagRun query_user_table_sqlite @ 2024-08-21 00:00:00+00:00: scheduled__2024-08-21T00:00:00+00:00, state:running, queued_at: 2024-08-22 03:56:37.669781+00:00. externally triggered: False>
+[2024-08-22T10:56:40.914+0700] {logging_mixin.py:190} INFO - Failure caused by no such table: user
+[2024-08-22T10:56:40.914+0700] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=query_user_table_sqlite, task_id=query_user_table, run_id=scheduled__2024-08-21T00:00:00+00:00, execution_date=20240821T000000, start_date=20240822T035640, end_date=20240822T035640
+[2024-08-22T10:56:40.943+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-08-22T10:56:40.944+0700] {standard_task_runner.py:124} ERROR - Failed to execute job 279 for task query_user_table (no such table: user; 21933)
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2995, in _run_raw_task
+    return _run_raw_task(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3149, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3173, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 288, in execute
+    output = hook.run(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 456, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 514, in _run_command
+    cur.execute(sql_statement)
+sqlite3.OperationalError: no such table: user
+[2024-08-22T10:56:40.990+0700] {local_task_job_runner.py:261} INFO - Task exited with return code 1
+[2024-08-22T10:56:41.003+0700] {taskinstance.py:3891} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-22T10:56:41.004+0700] {local_task_job_runner.py:240} INFO - ::endgroup::
+[2024-08-22T11:22:26.299+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-08-22T11:22:26.313+0700] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: query_user_table_sqlite.query_user_table scheduled__2024-08-21T00:00:00+00:00 [queued]>
+[2024-08-22T11:22:26.319+0700] {taskinstance.py:2603} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: query_user_table_sqlite.query_user_table scheduled__2024-08-21T00:00:00+00:00 [queued]>
+[2024-08-22T11:22:26.319+0700] {taskinstance.py:2856} INFO - Starting attempt 1 of 2
+[2024-08-22T11:22:26.336+0700] {taskinstance.py:2879} INFO - Executing <Task(SqliteOperator): query_user_table> on 2024-08-21 00:00:00+00:00
+[2024-08-22T11:22:26.347+0700] {standard_task_runner.py:72} INFO - Started process 34668 to run task
+[2024-08-22T11:22:26.380+0700] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'query_user_table_sqlite', 'query_user_table', 'scheduled__2024-08-21T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/test_slqite.py', '--cfg-path', '/tmp/tmpnofs17rp']
+[2024-08-22T11:22:26.381+0700] {standard_task_runner.py:105} INFO - Job 5: Subtask query_user_table
+[2024-08-22T11:22:26.576+0700] {task_command.py:467} INFO - Running <TaskInstance: query_user_table_sqlite.query_user_table scheduled__2024-08-21T00:00:00+00:00 [running]> on host LAPTOP-G8FSBU09.
+[2024-08-22T11:22:26.704+0700] {taskinstance.py:3122} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='query_user_table_sqlite' AIRFLOW_CTX_TASK_ID='query_user_table' AIRFLOW_CTX_EXECUTION_DATE='2024-08-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-21T00:00:00+00:00'
+[2024-08-22T11:22:26.709+0700] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-08-22T11:22:26.709+0700] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-08-22T11:22:26.709+0700] {logging_mixin.py:190} INFO - Current task name:query_user_table state:running start_date:2024-08-22 04:22:26.313687+00:00
+[2024-08-22T11:22:26.709+0700] {logging_mixin.py:190} INFO - Dag name:query_user_table_sqlite and current dag run status:running
+[2024-08-22T11:22:26.710+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2024-08-22T11:22:26.711+0700] {sql.py:282} INFO - Executing: select * from user;
+[2024-08-22T11:22:26.721+0700] {taskinstance.py:3301} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 283, in execute
+    hook = self.get_db_hook()
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 194, in get_db_hook
+    return self._hook
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 153, in _hook
+    conn = BaseHook.get_connection(conn_id)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/connection.py", line 537, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `test_sqlite` isn't defined
+[2024-08-22T11:22:26.739+0700] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-08-22T11:22:26.740+0700] {logging_mixin.py:190} INFO - Task start:2024-08-22 04:22:26.313687+00:00 end:2024-08-22 04:22:26.738935+00:00 duration:0.425248
+[2024-08-22T11:22:26.740+0700] {logging_mixin.py:190} INFO - Task:<Task(SqliteOperator): query_user_table> dag:<DAG: query_user_table_sqlite> dagrun:<DagRun query_user_table_sqlite @ 2024-08-21 00:00:00+00:00: scheduled__2024-08-21T00:00:00+00:00, state:running, queued_at: 2024-08-22 04:22:22.266168+00:00. externally triggered: False>
+[2024-08-22T11:22:26.740+0700] {logging_mixin.py:190} INFO - Failure caused by The conn_id `test_sqlite` isn't defined
+[2024-08-22T11:22:26.741+0700] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=query_user_table_sqlite, task_id=query_user_table, run_id=scheduled__2024-08-21T00:00:00+00:00, execution_date=20240821T000000, start_date=20240822T042226, end_date=20240822T042226
+[2024-08-22T11:22:26.763+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-08-22T11:22:26.763+0700] {standard_task_runner.py:124} ERROR - Failed to execute job 5 for task query_user_table (The conn_id `test_sqlite` isn't defined; 34668)
+Traceback (most recent call last):
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2995, in _run_raw_task
+    return _run_raw_task(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3149, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3173, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 283, in execute
+    hook = self.get_db_hook()
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 194, in get_db_hook
+    return self._hook
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 153, in _hook
+    conn = BaseHook.get_connection(conn_id)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/user/.local/lib/python3.10/site-packages/airflow/models/connection.py", line 537, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `test_sqlite` isn't defined
+[2024-08-22T11:22:26.788+0700] {local_task_job_runner.py:261} INFO - Task exited with return code 1
+[2024-08-22T11:22:26.804+0700] {taskinstance.py:3891} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-22T11:22:26.809+0700] {local_task_job_runner.py:240} INFO - ::endgroup::

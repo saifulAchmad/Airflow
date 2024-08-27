@@ -1,0 +1,344 @@
+[2024-08-22T10:55:58.090+0700] {processor.py:186} INFO - Started process (PID=21593) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:55:58.094+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T10:55:58.100+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:55:58.099+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:55:58.143+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:55:58.463+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:55:58.463+0700] {override.py:1858} INFO - Created Permission View: can delete on DAG:query_user_table_sqlite
+[2024-08-22T10:55:58.480+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:55:58.480+0700] {override.py:1858} INFO - Created Permission View: can read on DAG:query_user_table_sqlite
+[2024-08-22T10:55:58.494+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:55:58.493+0700] {override.py:1858} INFO - Created Permission View: can edit on DAG:query_user_table_sqlite
+[2024-08-22T10:55:58.495+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:55:58.494+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T10:55:58.523+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:55:58.523+0700] {dag.py:3234} INFO - Creating ORM DAG for query_user_table_sqlite
+[2024-08-22T10:55:58.546+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:55:58.545+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T10:55:58.573+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.529 seconds
+[2024-08-22T10:57:01.297+0700] {processor.py:186} INFO - Started process (PID=22101) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:57:01.298+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T10:57:01.300+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:57:01.300+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:57:01.308+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:57:01.320+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:57:01.319+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T10:57:01.334+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:57:01.333+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T10:57:01.350+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.058 seconds
+[2024-08-22T10:57:33.929+0700] {processor.py:186} INFO - Started process (PID=22440) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:57:33.931+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T10:57:33.932+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:57:33.932+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:57:33.942+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:57:33.956+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:57:33.956+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T10:57:33.973+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:57:33.973+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T10:57:33.991+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.067 seconds
+[2024-08-22T10:58:39.886+0700] {processor.py:186} INFO - Started process (PID=23165) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:58:39.887+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T10:58:39.890+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:58:39.889+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:58:39.900+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:58:39.917+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:58:39.916+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T10:58:39.936+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:58:39.936+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T10:58:39.956+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.075 seconds
+[2024-08-22T10:59:14.505+0700] {processor.py:186} INFO - Started process (PID=23463) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:59:14.507+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T10:59:14.509+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:59:14.509+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:59:14.519+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:59:14.537+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:59:14.536+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T10:59:14.556+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:59:14.555+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T10:59:14.575+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.077 seconds
+[2024-08-22T10:59:44.847+0700] {processor.py:186} INFO - Started process (PID=23724) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:59:44.848+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T10:59:44.851+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:59:44.850+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:59:44.861+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T10:59:44.878+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:59:44.877+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T10:59:44.896+0700] {logging_mixin.py:190} INFO - [2024-08-22T10:59:44.895+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T10:59:44.912+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.071 seconds
+[2024-08-22T11:00:42.024+0700] {processor.py:186} INFO - Started process (PID=24180) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:00:42.026+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:00:42.027+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:00:42.027+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:00:42.038+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:00:42.053+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:00:42.053+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:00:42.079+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:00:42.078+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:00:42.100+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.080 seconds
+[2024-08-22T11:01:39.163+0700] {processor.py:186} INFO - Started process (PID=24639) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:01:39.165+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:01:39.167+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:01:39.167+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:01:39.187+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:01:39.210+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:01:39.209+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:01:39.228+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:01:39.228+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:01:39.245+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.089 seconds
+[2024-08-22T11:02:10.759+0700] {processor.py:186} INFO - Started process (PID=24889) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:02:10.761+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:02:10.764+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:02:10.763+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:02:10.776+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:02:10.792+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:02:10.791+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:02:10.817+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:02:10.817+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:02:10.839+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.088 seconds
+[2024-08-22T11:02:41.848+0700] {processor.py:186} INFO - Started process (PID=25136) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:02:41.850+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:02:41.853+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:02:41.853+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:02:41.866+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:02:41.886+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:02:41.886+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:02:41.912+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:02:41.912+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:02:41.954+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.113 seconds
+[2024-08-22T11:03:43.241+0700] {processor.py:186} INFO - Started process (PID=25808) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:03:43.244+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:03:43.246+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:03:43.246+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:03:43.261+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:03:43.419+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:03:43.418+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:03:43.437+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:03:43.437+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:03:43.466+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.230 seconds
+[2024-08-22T11:04:49.258+0700] {processor.py:186} INFO - Started process (PID=26322) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:04:49.267+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:04:49.287+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:04:49.284+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:04:49.371+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:04:49.548+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:04:49.548+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:04:49.581+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:04:49.581+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:04:49.613+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.414 seconds
+[2024-08-22T11:05:49.525+0700] {processor.py:186} INFO - Started process (PID=26662) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:05:49.527+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:05:49.529+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:05:49.528+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:05:49.540+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:05:49.555+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:05:49.554+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:05:49.573+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:05:49.573+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:05:49.599+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.079 seconds
+[2024-08-22T11:06:46.776+0700] {processor.py:186} INFO - Started process (PID=27107) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:06:46.777+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:06:46.779+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:06:46.779+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:06:46.789+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:06:46.801+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:06:46.801+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:06:46.820+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:06:46.820+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:06:46.837+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.067 seconds
+[2024-08-22T11:07:20.402+0700] {processor.py:186} INFO - Started process (PID=27372) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:07:20.404+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:07:20.406+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:07:20.405+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:07:20.429+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:07:20.447+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:07:20.447+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:07:20.491+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:07:20.490+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:07:20.510+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.113 seconds
+[2024-08-22T11:07:56.165+0700] {processor.py:186} INFO - Started process (PID=27654) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:07:56.166+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:07:56.168+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:07:56.168+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:07:56.176+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:07:56.187+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:07:56.187+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:07:56.202+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:07:56.202+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:07:56.221+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.060 seconds
+[2024-08-22T11:08:53.957+0700] {processor.py:186} INFO - Started process (PID=28103) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:08:53.958+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:08:53.961+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:08:53.960+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:08:53.972+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:08:53.991+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:08:53.991+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:08:54.017+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:08:54.017+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:08:54.041+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.088 seconds
+[2024-08-22T11:09:49.097+0700] {processor.py:186} INFO - Started process (PID=28537) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:09:49.099+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:09:49.100+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:09:49.100+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:09:49.108+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:09:49.120+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:09:49.119+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:09:49.135+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:09:49.135+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:09:49.151+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.059 seconds
+[2024-08-22T11:10:43.616+0700] {processor.py:186} INFO - Started process (PID=28960) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:10:43.618+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:10:43.620+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:10:43.619+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:10:43.627+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:10:43.640+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:10:43.640+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:10:43.656+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:10:43.656+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:10:43.673+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.062 seconds
+[2024-08-22T11:11:36.473+0700] {processor.py:186} INFO - Started process (PID=29516) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:11:36.475+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:11:36.477+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:11:36.477+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:11:36.484+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:11:36.507+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:11:36.507+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:11:36.547+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:11:36.547+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:11:36.569+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.100 seconds
+[2024-08-22T11:11:58.730+0700] {processor.py:186} INFO - Started process (PID=29680) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:11:58.742+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:11:58.752+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:11:58.751+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:11:58.834+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:11:59.080+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:11:59.079+0700] {override.py:1858} INFO - Created Permission View: can read on DAG:query_user_table_sqlite
+[2024-08-22T11:11:59.096+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:11:59.096+0700] {override.py:1858} INFO - Created Permission View: can edit on DAG:query_user_table_sqlite
+[2024-08-22T11:11:59.113+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:11:59.113+0700] {override.py:1858} INFO - Created Permission View: can delete on DAG:query_user_table_sqlite
+[2024-08-22T11:11:59.113+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:11:59.113+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:11:59.137+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:11:59.136+0700] {dag.py:3234} INFO - Creating ORM DAG for query_user_table_sqlite
+[2024-08-22T11:11:59.154+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:11:59.154+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:11:59.178+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.494 seconds
+[2024-08-22T11:13:03.693+0700] {processor.py:186} INFO - Started process (PID=30191) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:13:03.694+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:13:03.696+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:13:03.695+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:13:03.708+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:13:03.725+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:13:03.725+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:13:03.746+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:13:03.746+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:13:03.770+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.085 seconds
+[2024-08-22T11:13:27.875+0700] {processor.py:186} INFO - Started process (PID=30388) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:13:27.887+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:13:27.906+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:13:27.903+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:13:27.972+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:13:28.103+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:13:28.103+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:13:28.155+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:13:28.153+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:13:28.217+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.391 seconds
+[2024-08-22T11:14:27.680+0700] {processor.py:186} INFO - Started process (PID=30867) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:14:27.682+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:14:27.685+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:14:27.684+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:14:27.696+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:14:27.711+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:14:27.711+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:14:27.734+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:14:27.733+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:14:27.753+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.081 seconds
+[2024-08-22T11:15:26.456+0700] {processor.py:186} INFO - Started process (PID=31329) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:15:26.461+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:15:26.463+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:15:26.463+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:15:26.479+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:15:26.494+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:15:26.494+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:15:26.511+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:15:26.511+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:15:26.531+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.080 seconds
+[2024-08-22T11:16:21.115+0700] {processor.py:186} INFO - Started process (PID=31796) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:16:21.121+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:16:21.123+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:16:21.123+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:16:21.132+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:16:21.146+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:16:21.146+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:16:21.160+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:16:21.160+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:16:21.181+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.070 seconds
+[2024-08-22T11:16:32.514+0700] {processor.py:186} INFO - Started process (PID=31894) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:16:32.517+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:16:32.519+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:16:32.519+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:16:32.537+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:16:32.565+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:16:32.565+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:16:32.586+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:16:32.586+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:16:32.607+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.105 seconds
+[2024-08-22T11:16:57.303+0700] {processor.py:186} INFO - Started process (PID=32083) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:16:57.308+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:16:57.315+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:16:57.314+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:16:57.346+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:16:57.426+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:16:57.426+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:16:57.471+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:16:57.471+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:16:57.512+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.233 seconds
+[2024-08-22T11:17:57.637+0700] {processor.py:186} INFO - Started process (PID=32552) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:17:57.639+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:17:57.641+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:17:57.641+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:17:57.649+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:17:57.661+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:17:57.661+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:17:57.675+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:17:57.675+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:17:57.693+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.060 seconds
+[2024-08-22T11:18:51.604+0700] {processor.py:186} INFO - Started process (PID=32975) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:18:51.606+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:18:51.608+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:18:51.607+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:18:51.618+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:18:51.633+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:18:51.633+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:18:51.655+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:18:51.655+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:18:51.676+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.078 seconds
+[2024-08-22T11:19:22.844+0700] {processor.py:186} INFO - Started process (PID=33214) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:19:22.845+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:19:22.847+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:19:22.846+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:19:22.862+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:19:22.874+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:19:22.873+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:19:22.909+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:19:22.908+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:19:22.937+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.099 seconds
+[2024-08-22T11:19:57.241+0700] {processor.py:186} INFO - Started process (PID=33488) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:19:57.242+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:19:57.244+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:19:57.244+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:19:57.254+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:19:57.266+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:19:57.266+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:19:57.280+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:19:57.280+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:19:57.303+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.067 seconds
+[2024-08-22T11:20:28.394+0700] {processor.py:186} INFO - Started process (PID=33735) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:20:28.396+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:20:28.398+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:20:28.397+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:20:28.408+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:20:28.427+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:20:28.427+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:20:28.452+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:20:28.451+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:20:28.487+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.103 seconds
+[2024-08-22T11:21:27.348+0700] {processor.py:186} INFO - Started process (PID=34193) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:21:27.352+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:21:27.356+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:21:27.355+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:21:27.386+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:21:27.412+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:21:27.410+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:21:27.515+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:21:27.514+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:21:27.582+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.243 seconds
+[2024-08-22T11:21:57.776+0700] {processor.py:186} INFO - Started process (PID=34442) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:21:57.779+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:21:57.780+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:21:57.780+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:21:57.791+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:21:57.804+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:21:57.804+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:21:57.821+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:21:57.820+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-21 00:00:00+00:00, run_after=2024-08-22 00:00:00+00:00
+[2024-08-22T11:21:57.843+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.073 seconds
+[2024-08-22T11:22:38.250+0700] {processor.py:186} INFO - Started process (PID=34755) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:22:38.251+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:22:38.253+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:22:38.253+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:22:38.262+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:22:38.274+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:22:38.274+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:22:38.292+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:22:38.292+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:22:38.315+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.070 seconds
+[2024-08-22T11:23:13.367+0700] {processor.py:186} INFO - Started process (PID=35059) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:23:13.369+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:23:13.372+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:23:13.372+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:23:13.384+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:23:13.404+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:23:13.403+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:23:13.428+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:23:13.428+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:23:13.451+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.096 seconds
+[2024-08-22T11:24:07.231+0700] {processor.py:186} INFO - Started process (PID=35588) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:24:07.245+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:24:07.275+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:24:07.271+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:24:07.355+0700] {processor.py:925} INFO - DAG(s) 'query_user_table_sqlite' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:24:07.461+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:24:07.461+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:24:07.532+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:24:07.531+0700] {dag.py:4138} INFO - Setting next_dagrun for query_user_table_sqlite to 2024-08-22 00:00:00+00:00, run_after=2024-08-23 00:00:00+00:00
+[2024-08-22T11:24:07.583+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.431 seconds
+[2024-08-22T11:24:38.924+0700] {processor.py:186} INFO - Started process (PID=35863) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:24:38.926+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:24:38.928+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:24:38.928+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:24:38.945+0700] {processor.py:925} INFO - DAG(s) 'sqlite_query_dag' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:24:39.172+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:24:39.170+0700] {override.py:1858} INFO - Created Permission View: can read on DAG:sqlite_query_dag
+[2024-08-22T11:24:39.185+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:24:39.184+0700] {override.py:1858} INFO - Created Permission View: can delete on DAG:sqlite_query_dag
+[2024-08-22T11:24:39.198+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:24:39.198+0700] {override.py:1858} INFO - Created Permission View: can edit on DAG:sqlite_query_dag
+[2024-08-22T11:24:39.199+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:24:39.199+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:24:39.216+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:24:39.216+0700] {dag.py:3234} INFO - Creating ORM DAG for sqlite_query_dag
+[2024-08-22T11:24:39.225+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:24:39.225+0700] {dag.py:4138} INFO - Setting next_dagrun for sqlite_query_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-22T11:24:39.245+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.328 seconds
+[2024-08-22T11:25:11.105+0700] {processor.py:186} INFO - Started process (PID=36117) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:25:11.107+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:25:11.109+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:25:11.108+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:25:11.115+0700] {processor.py:925} INFO - DAG(s) 'sqlite_query_dag' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:25:11.129+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:25:11.128+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:25:11.147+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:25:11.146+0700] {dag.py:4138} INFO - Setting next_dagrun for sqlite_query_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-22T11:25:11.167+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.067 seconds
+[2024-08-22T11:25:40.371+0700] {processor.py:186} INFO - Started process (PID=36479) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:25:40.372+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:25:40.374+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:25:40.373+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:25:40.382+0700] {processor.py:925} INFO - DAG(s) 'sqlite_query_dag' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:25:40.395+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:25:40.395+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:25:40.411+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:25:40.410+0700] {dag.py:4138} INFO - Setting next_dagrun for sqlite_query_dag to 2023-01-01 00:00:00+00:00, run_after=2023-01-02 00:00:00+00:00
+[2024-08-22T11:25:40.429+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.064 seconds
+[2024-08-22T11:26:43.556+0700] {processor.py:186} INFO - Started process (PID=37069) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:26:43.558+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:26:43.560+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:26:43.560+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:26:43.616+0700] {processor.py:925} INFO - DAG(s) 'sqlite_query_dag' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:26:43.668+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:26:43.668+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:26:43.776+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.234 seconds
+[2024-08-22T11:27:42.566+0700] {processor.py:186} INFO - Started process (PID=37530) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:27:42.569+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:27:42.570+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:27:42.570+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:27:42.580+0700] {processor.py:925} INFO - DAG(s) 'sqlite_query_dag' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:27:42.593+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:27:42.593+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:27:42.647+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.088 seconds
+[2024-08-22T11:28:22.431+0700] {processor.py:186} INFO - Started process (PID=37840) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:28:22.433+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:28:22.434+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:28:22.433+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:28:22.441+0700] {processor.py:925} INFO - DAG(s) 'sqlite_query_dag' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:28:22.453+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:28:22.452+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:28:22.500+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.074 seconds
+[2024-08-22T11:28:59.608+0700] {processor.py:186} INFO - Started process (PID=38158) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:28:59.610+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:28:59.613+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:28:59.612+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:28:59.625+0700] {processor.py:925} INFO - DAG(s) 'sqlite_query_dag' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:28:59.640+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:28:59.639+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:28:59.723+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.121 seconds
+[2024-08-22T11:29:41.833+0700] {processor.py:186} INFO - Started process (PID=38519) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:29:41.835+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:29:41.836+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:29:41.836+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:29:41.843+0700] {processor.py:925} INFO - DAG(s) 'sqlite_query_dag' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:29:41.858+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:29:41.857+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:29:41.876+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:29:41.876+0700] {dag.py:4138} INFO - Setting next_dagrun for sqlite_query_dag to 2023-01-16 00:00:00+00:00, run_after=2023-01-17 00:00:00+00:00
+[2024-08-22T11:29:41.901+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.074 seconds
+[2024-08-22T11:30:32.527+0700] {processor.py:186} INFO - Started process (PID=38931) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:30:32.529+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:30:32.530+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:30:32.529+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:30:32.538+0700] {processor.py:925} INFO - DAG(s) 'sqlite_query_dag' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:30:32.550+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:30:32.550+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:30:32.566+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:30:32.565+0700] {dag.py:4138} INFO - Setting next_dagrun for sqlite_query_dag to 2023-01-22 00:00:00+00:00, run_after=2023-01-23 00:00:00+00:00
+[2024-08-22T11:30:32.584+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.061 seconds
+[2024-08-22T11:31:06.314+0700] {processor.py:186} INFO - Started process (PID=39099) to work on /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:31:06.316+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_slqite.py for tasks to queue
+[2024-08-22T11:31:06.317+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:31:06.317+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:31:06.327+0700] {processor.py:925} INFO - DAG(s) 'sqlite_query_dag' retrieved from /home/user/airflow/dags/test_slqite.py
+[2024-08-22T11:31:06.401+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:31:06.401+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-22T11:31:06.519+0700] {logging_mixin.py:190} INFO - [2024-08-22T11:31:06.518+0700] {dag.py:4138} INFO - Setting next_dagrun for sqlite_query_dag to 2023-01-22 00:00:00+00:00, run_after=2023-01-23 00:00:00+00:00
+[2024-08-22T11:31:06.578+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_slqite.py took 0.269 seconds

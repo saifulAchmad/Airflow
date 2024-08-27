@@ -1,0 +1,231 @@
+[2024-08-27T09:19:18.347+0700] {processor.py:186} INFO - Started process (PID=5048) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:19:18.348+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:19:18.350+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:19:18.349+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:19:18.360+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:19:18.385+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:19:18.385+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:19:18.396+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:19:18.396+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:19:18.415+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.074 seconds
+[2024-08-27T09:20:18.821+0700] {processor.py:186} INFO - Started process (PID=5599) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:20:18.828+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:20:18.830+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:20:18.830+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:20:18.836+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:20:18.849+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:20:18.849+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:20:18.862+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:20:18.861+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:20:18.882+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.066 seconds
+[2024-08-27T09:21:18.270+0700] {processor.py:186} INFO - Started process (PID=6080) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:21:18.271+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:21:18.273+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:21:18.273+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:21:18.280+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:21:18.293+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:21:18.293+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:21:18.303+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:21:18.303+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:21:18.324+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.058 seconds
+[2024-08-27T09:21:40.209+0700] {processor.py:186} INFO - Started process (PID=6255) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:21:40.212+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:21:40.218+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:21:40.218+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:21:40.237+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:21:40.275+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:21:40.275+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:21:40.290+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:21:40.290+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:21:40.312+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.108 seconds
+[2024-08-27T09:22:44.270+0700] {processor.py:186} INFO - Started process (PID=6769) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:22:44.273+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:22:44.275+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:22:44.275+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:22:44.281+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:22:44.297+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:22:44.297+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:22:44.309+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:22:44.308+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:22:44.327+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.062 seconds
+[2024-08-27T09:23:14.504+0700] {processor.py:186} INFO - Started process (PID=7021) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:23:14.506+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:23:14.508+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:23:14.508+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:23:14.517+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:23:14.532+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:23:14.532+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:23:14.542+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:23:14.542+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:23:14.559+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.062 seconds
+[2024-08-27T09:24:13.602+0700] {processor.py:186} INFO - Started process (PID=7486) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:24:13.604+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:24:13.606+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:24:13.606+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:24:13.612+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:24:13.626+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:24:13.625+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:24:13.634+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:24:13.634+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:24:13.656+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.061 seconds
+[2024-08-27T09:24:46.577+0700] {processor.py:186} INFO - Started process (PID=7744) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:24:46.584+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:24:46.586+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:24:46.586+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:24:46.593+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:24:46.606+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:24:46.606+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:24:46.617+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:24:46.616+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:24:46.634+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.062 seconds
+[2024-08-27T09:25:20.627+0700] {processor.py:186} INFO - Started process (PID=8008) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:25:20.634+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:25:20.636+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:25:20.635+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:25:20.642+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:25:20.654+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:25:20.654+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:25:20.663+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:25:20.662+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:25:20.683+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.060 seconds
+[2024-08-27T09:25:54.269+0700] {processor.py:186} INFO - Started process (PID=8272) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:25:54.275+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:25:54.277+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:25:54.277+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:25:54.283+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:25:54.294+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:25:54.294+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:25:54.304+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:25:54.304+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:25:54.322+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.058 seconds
+[2024-08-27T09:26:29.277+0700] {processor.py:186} INFO - Started process (PID=8547) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:26:29.279+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:26:29.287+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:26:29.286+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:26:29.300+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:26:29.324+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:26:29.324+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:26:29.335+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:26:29.335+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:26:29.356+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.085 seconds
+[2024-08-27T09:26:58.157+0700] {processor.py:186} INFO - Started process (PID=8782) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:26:58.158+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:26:58.160+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:26:58.160+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:26:58.170+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:26:58.193+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:26:58.192+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:26:58.210+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:26:58.209+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:26:58.232+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.080 seconds
+[2024-08-27T09:28:05.489+0700] {processor.py:186} INFO - Started process (PID=9328) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:28:05.491+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:28:05.493+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:28:05.492+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:28:05.500+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:28:05.519+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:28:05.519+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:28:05.529+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:28:05.529+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:28:05.555+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.071 seconds
+[2024-08-27T09:29:05.821+0700] {processor.py:186} INFO - Started process (PID=9821) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:29:05.823+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:29:05.824+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:29:05.824+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:29:05.831+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:29:05.843+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:29:05.843+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:29:05.852+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:29:05.852+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:29:05.869+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.053 seconds
+[2024-08-27T09:29:46.513+0700] {processor.py:186} INFO - Started process (PID=10147) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:29:46.520+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:29:46.522+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:29:46.522+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:29:46.529+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:29:46.545+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:29:46.544+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:29:46.553+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:29:46.553+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:29:46.571+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.062 seconds
+[2024-08-27T09:30:52.569+0700] {processor.py:186} INFO - Started process (PID=10681) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:30:52.576+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:30:52.578+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:30:52.577+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:30:52.587+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:30:52.605+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:30:52.604+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:30:52.617+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:30:52.616+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:30:52.635+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.074 seconds
+[2024-08-27T09:31:27.590+0700] {processor.py:186} INFO - Started process (PID=10957) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:31:27.596+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:31:27.598+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:31:27.598+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:31:27.604+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:31:27.615+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:31:27.615+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:31:27.624+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:31:27.624+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:31:27.640+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.055 seconds
+[2024-08-27T09:32:22.134+0700] {processor.py:186} INFO - Started process (PID=11472) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:32:22.141+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:32:22.143+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:32:22.142+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:32:22.149+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:32:22.165+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:32:22.165+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:32:22.173+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:32:22.173+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:32:22.191+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.061 seconds
+[2024-08-27T09:33:25.381+0700] {processor.py:186} INFO - Started process (PID=11985) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:33:25.382+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:33:25.384+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:33:25.384+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:33:25.392+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:33:25.406+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:33:25.406+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:33:25.417+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:33:25.417+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:33:25.446+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.069 seconds
+[2024-08-27T09:34:19.505+0700] {processor.py:186} INFO - Started process (PID=12416) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:34:19.511+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:34:19.513+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:34:19.513+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:34:19.521+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:34:19.537+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:34:19.537+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:34:19.546+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:34:19.546+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:34:19.566+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.066 seconds
+[2024-08-27T09:35:26.570+0700] {processor.py:186} INFO - Started process (PID=12973) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:35:26.572+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:35:26.574+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:35:26.573+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:35:26.584+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:35:26.605+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:35:26.604+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:35:26.615+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:35:26.615+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:35:26.634+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.068 seconds
+[2024-08-27T09:36:29.546+0700] {processor.py:186} INFO - Started process (PID=13488) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:36:29.552+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:36:29.554+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:36:29.554+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:36:29.560+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:36:29.575+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:36:29.575+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:36:29.588+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:36:29.588+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:36:29.612+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.071 seconds
+[2024-08-27T09:37:01.734+0700] {processor.py:186} INFO - Started process (PID=13795) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:37:01.736+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:37:01.740+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:37:01.739+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:37:01.750+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:37:01.777+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:37:01.776+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:37:01.794+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:37:01.794+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:37:01.822+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.096 seconds
+[2024-08-27T09:37:34.137+0700] {processor.py:186} INFO - Started process (PID=14061) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:37:34.139+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:37:34.142+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:37:34.141+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:37:34.150+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:37:34.167+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:37:34.167+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:37:34.180+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:37:34.180+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:37:34.207+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.078 seconds
+[2024-08-27T09:38:34.830+0700] {processor.py:186} INFO - Started process (PID=14536) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:38:34.832+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:38:34.834+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:38:34.833+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:38:34.841+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:38:34.855+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:38:34.855+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:38:34.866+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:38:34.865+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:38:34.892+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.067 seconds
+[2024-08-27T09:38:58.126+0700] {processor.py:186} INFO - Started process (PID=14727) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:38:58.128+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:38:58.130+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:38:58.130+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:38:58.137+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:38:58.156+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:38:58.156+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:38:58.168+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:38:58.168+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:38:58.192+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.070 seconds
+[2024-08-27T09:40:08.844+0700] {processor.py:186} INFO - Started process (PID=15330) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:40:08.845+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:40:08.846+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:40:08.846+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:40:08.852+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:40:08.865+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:40:08.864+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:40:08.874+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:40:08.874+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:40:08.893+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.054 seconds
+[2024-08-27T09:41:08.860+0700] {processor.py:186} INFO - Started process (PID=15806) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:41:08.862+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:41:08.864+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:41:08.864+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:41:08.870+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:41:08.882+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:41:08.882+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:41:08.890+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:41:08.890+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:41:08.908+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.052 seconds
+[2024-08-27T09:41:39.728+0700] {processor.py:186} INFO - Started process (PID=16052) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:41:39.730+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:41:39.733+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:41:39.732+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:41:39.740+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:41:39.755+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:41:39.755+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:41:39.766+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:41:39.765+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:41:39.787+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.063 seconds
+[2024-08-27T09:42:16.611+0700] {processor.py:186} INFO - Started process (PID=16368) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:42:16.653+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:42:16.701+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:42:16.699+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:42:16.733+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:42:16.903+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:42:16.903+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:42:16.969+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:42:16.968+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:42:17.027+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.435 seconds
+[2024-08-27T09:42:54.132+0700] {processor.py:186} INFO - Started process (PID=16661) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:42:54.134+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:42:54.136+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:42:54.135+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:42:54.142+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:42:54.155+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:42:54.155+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:42:54.166+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:42:54.166+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:42:54.186+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.058 seconds
+[2024-08-27T09:43:48.828+0700] {processor.py:186} INFO - Started process (PID=17072) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:43:48.835+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:43:48.837+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:43:48.836+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:43:48.844+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:43:48.861+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:43:48.861+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:43:48.870+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:43:48.870+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:43:48.888+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.064 seconds
+[2024-08-27T09:44:56.912+0700] {processor.py:186} INFO - Started process (PID=17661) to work on /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:44:56.913+0700] {processor.py:914} INFO - Processing file /home/user/airflow/dags/test_pandas.py for tasks to queue
+[2024-08-27T09:44:56.915+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:44:56.915+0700] {dagbag.py:587} INFO - Filling up the DagBag from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:44:56.922+0700] {processor.py:925} INFO - DAG(s) 'combine_columns_dag' retrieved from /home/user/airflow/dags/test_pandas.py
+[2024-08-27T09:44:56.941+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:44:56.941+0700] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-08-27T09:44:56.954+0700] {logging_mixin.py:190} INFO - [2024-08-27T09:44:56.954+0700] {dag.py:4138} INFO - Setting next_dagrun for combine_columns_dag to None, run_after=None
+[2024-08-27T09:44:56.977+0700] {processor.py:208} INFO - Processing /home/user/airflow/dags/test_pandas.py took 0.071 seconds
